@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Home </title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div>
+            <img class="logomarca" src="imgs/logomarca-mato.png" alt="Logomarca">
+        </div>
+
+        <div class="cabecalho__itens">
+            <a class="cabecalho__item" href="">Home</a>
+
+            <a class="cabecalho__item" href="">Pacotes</a>
+
+            <a class="cabecalho__item" href="">Contato</a>
+
+            <a class="cabecalho__item" href="">Sobre</a>
+        </div>
+    </header>
+
+    <main class="corpo">
+        <section class="secao__carrossel">
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <!-- <div class="swiper-slide__item"><img src="" alt=""></div>
+                <div class="swiper-slide__item"><img src="" alt=""></div>
+                <div class="swiper-slide__item"><img src="" alt=""></div>
+                <div class="swiper-slide__item"><img src="" alt=""></div>
+                <div class="swiper-slide__item"><img src="" alt=""></div>
+                <div class="swiper-slide__item"><img src="" alt=""></div>
+                <div class="swiper-slide__item"><img src="" alt=""></div>
+                <div class="swiper-slide__item"><img src="" alt=""></div> -->
+            </div>
+        </section>
+
+        <section class="secao__fotografa">
+            <div class="secao__fotografa__card">
+                <div class="secao__fotografa__card__info">
+                    <h3 class="secao__fotografa__card__titulo">Quem Sou</h3>
+                    <p class="secao__fotografa__card__texto">Me chamo alexia, fotógrafa brasileira com mais de 8 anos de experiência nos mais diversos ramos, já trabalhei com fotografia gestante, newborne, casamentos, batismos, eventos, a lista é extensa, para conhecer mais do meu trabalho, acesse minhas redes sociais.</p>
+                </div>
+
+                <img class="secao__fotografa__foto" src="imgs/alexia-perfil.jpg" alt="foto-fotografa">
+            </div>
+
+            <a class="secao__fotografa__botao" href="https://www.instagram.com/vivaluzfotografia/">Meu Instagram</a>
+        </section>
+    </main>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerview:1,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+    });
+    </script>
+</body>
+</html>

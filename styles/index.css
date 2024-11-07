@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Square+Peg&display=swap');
+
+:root {
+
+    --cor-marrom-claro: #493628;
+    --cor-branco-cinza: #E4E0E1;
+
+    --cor-bege-fundo: #D6C0B3;
+    --cor-branco-fundo: #F0F0F0;
+
+    --fonte-titulo: font-family: "Square Peg", cursive;
+    --fonte-texto: font-family: "Antic Didone", serif;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* CSS DO HEADER */
+
+.cabecalho {
+    display: flex;
+    background-color: var(--cor-branco-cinza);
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.cabecalho__itens {
+    padding-right: 2rem;
+}
+
+.cabecalho__item {
+    font-size: 1.5em;
+    padding: 1rem;
+    align-items: right;
+    color: var(--cor-marrom-claro);
+    text-decoration: none;
+}
+
+.logomarca {
+    padding-left: 2.5rem;
+    height: 150px;
+    width: 150px;
+}
+
+
+
+/* CSS DA SEÇÃO - CARROSSEL */
+
+.corpo {
+    background-color: var(--cor-bege-fundo);
+}
+
+.secao__carrossel__titulo {
+    font-family: "Square Peg", cursive;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 5rem;
+}
+
+/* CSS DA SEÇÃO - FOTOGRAFA */
+
+.secao__fotografa {
+    background-color: var(--cor-branco-fundo);
+    padding: 8rem;
+}
+
+.secao__fotografa__card {
+    display: flex;
+}
+
+.secao__fotografa__card__info {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    font-size: 30px;
+    font-family: "Antic Didone", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.secao__fotografa__card__titulo {
+    font-size: 4em;
+    color: var(--cor-marrom-claro);
+}
+
+.secao__fotografa__card__texto {
+    font-size: 1.5em;
+    margin-top: 3rem;
+}
+
+.secao__fotografa__foto {
+    height: 720px;
+    border-radius: 32px;
+}
+
+.secao__fotografa__botao {
+    border: solid;
+    border-radius: 0.5rem;
+    border-color: var(--cor-marrom-claro);
+    background-color: var(--cor-branco-cinza);
+    padding: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    margin-left: 3rem;
+    color: var(--cor-marrom-claro);
+}
